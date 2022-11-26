@@ -1,0 +1,72 @@
+/* about-us */
+.about-us {
+  background: url("~/public/assets/images/about.jpg");
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-header {
+  height: 300px;
+}
+.about-us .content {
+  width: 50%;
+  padding-top: 200px;
+}
+.about-us .content .text-arrival {
+  padding: 20px 0;
+  color: #fff;
+}
+.about-us .content .text-arrival img {
+  width: 150px;
+}
+.about-us .content p {
+  color: #fff;
+  width: 450px;
+  font-size: 18px;
+  line-height: 2;
+}
+.about-us .content .button span {
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #cc9f4c;
+}
+
+.about-us .parent {
+  width: 50%;
+  position: relative;
+  padding: 80px 0 0 70px;
+  top: 0;
+  left: 0;
+}
+.about-us .parent .image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000000;
+}
+.about-us .parent .image2 {
+  position: absolute;
+  top: calc(40vh - 50px);
+  left: calc(20vw - 10px);
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000000;
+}
+@media screen and (max-width: 1000px) {
+  .about-us .parent {
+    width: 90%;
+    margin: auto;
+  }
+  .about-us .content {
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .about-us .parent .image2 {
+    top: calc(25vh - 50px);
+    left: calc(25vw - 10px);
+  }
+}

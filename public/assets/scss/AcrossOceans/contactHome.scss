@@ -1,0 +1,68 @@
+/* contact */
+.contact-about {
+  width: 100%;
+  background: url("~/public/assets/images/icon/Asset 25ldpi.png");
+  background-size: cover;
+}
+.contact-about .content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px 30px;
+}
+.contact-about .content form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact-about .content .form-dev {
+  width: 800px;
+}
+.contact-about .content .form-dev form label {
+  color: #fff;
+  font-size: 20px;
+}
+.contact-about .content .contact-dev {
+  width: 300px;
+}
+.contact-about .content .contact-dev .contact {
+  display: flex;
+}
+.contact-about .content .contact-dev .contact .image {
+  height: 235px;
+}
+.contact-about .content .contact-dev .contact .image img {
+  height: 100%;
+}
+.contact-about .content .contact-dev .contact .content {
+  display: block;
+}
+.contact-about .content .contact-dev .contact .content p {
+  font-size: 18px;
+  color: #fff;
+}
+.contact-about .content .contact-dev .btn-contact {
+  width: 50%;
+  height: 50px;
+  /* text-align: center; */
+  display: flex;
+  background: #1c2b7f;
+}
+.contact-about .content .contact-dev .btn-contact button {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  padding: 12px 0;
+}
+@media screen and (max-width: 1050px) {
+  .contact-about .content .form-dev {
+    width: 80%;
+  }
+  .contact-about .content .contact-dev {
+    width: 80%;
+  }
+}
