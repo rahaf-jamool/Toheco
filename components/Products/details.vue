@@ -8,7 +8,6 @@ export default {
       data: {
         title: "PURE COTTON T-SHIRT",
         image1: "logo-titlt.png",
-        image2: "Asset 19ldpi.png",
       },
       brands: [
         {
@@ -82,7 +81,6 @@ export default {
     <title-head
       :title="data.title"
       :image1="data.image1"
-      :image2="data.image2"
     />
     <div class="specifications">
       <div class="slider">

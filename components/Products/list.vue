@@ -9,7 +9,6 @@ export default {
       data: {
         title: "Equipments",
         image1: "logo-titlt.png",
-        image2: "Asset 19ldpi.png",
       },
     };
   },
@@ -21,7 +20,6 @@ export default {
     <title-head
       :title="data.title"
       :image1="data.image1"
-      :image2="data.image2"
     />
 
     <div class="filter">

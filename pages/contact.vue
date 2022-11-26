@@ -3,7 +3,6 @@
     <title-head
       :title="data.title"
       :image1="data.image1"
-      :image2="data.image2"
     />
     <div class="row">
       <div class="col-lg-6 col-md-6 col-12">
@@ -137,7 +136,6 @@ export default {
       data: {
         title: "PURE COTTON T-SHIRT",
         image1: "logo-titlt.png",
-        image2: "Asset 19ldpi.png",
       },
     };
   },
